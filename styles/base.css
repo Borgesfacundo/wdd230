@@ -1,5 +1,31 @@
-h1 {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.profile {
+    color: #fff;
+    background-color: #415541;
     font-size: 2rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img {
+    margin: 2rem 2.5rem 2rem 1rem;
+}
+
+
+h1 {
+    font-size: 1.3rem;
 }
 
 nav {
@@ -24,4 +50,62 @@ nav a:hover {
 
 nav .active {
     background-color: rgba(0, 0, 0, 0.2);
+}
+
+.parent {
+    margin: 1rem 2vw;
+}
+
+.parent section {
+    border: 1px solid #415541;
+    background-color: #e9f5e9;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.card ul {
+    padding: 20px;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.card p {
+    text-align: center;
+    font-size: 17px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main h1 {
+    font-size: 2rem;
+    grid-row: 1/2;
+    margin: 0 auto;
+    padding-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.2rem;
+}
+
+section h2 {
+    background-color: #415541;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: .75rem 0;
+}
+
+.parent p {
+    padding: 10px;
+}
+
+footer {
+    background-color: #415541;
+    color: white;
+    text-align: center;
+    padding: 2rem;
 }
