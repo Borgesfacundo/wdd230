@@ -101,6 +101,7 @@ section h2 {
 
 .parent p {
     padding: 10px;
+    padding-top: 15px;
 }
 
 footer {
@@ -108,4 +109,15 @@ footer {
     color: white;
     text-align: center;
     padding: 2rem;
+}
+
+footer p {
+    padding-bottom: 5px;
+    font-size: 19px;
+}
+
+#lastModified {
+    color: #ec9200;
+    padding-top: 15px;
+    font-size: 15px;
 }
