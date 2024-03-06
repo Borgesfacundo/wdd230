@@ -136,13 +136,13 @@ p {
     padding-top: 40px;
 }
 
-#base {
+.base {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#larger {
+.larger {
     display: flex;
     justify-content: center;
     align-items: center;
