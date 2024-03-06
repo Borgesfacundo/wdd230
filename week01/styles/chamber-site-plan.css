@@ -135,3 +135,15 @@ p {
     text-align: center;
     padding-top: 40px;
 }
+
+#base {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#larger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
