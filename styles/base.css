@@ -9,6 +9,21 @@ body {
     font-weight: 500;
 }
 
+#darkBtn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 44px;
+    height: 44px;
+    background-color: #415541;
+    cursor: pointer;
+    color: #fff;
+}
+
+header {
+    position: relative;
+}
+
 .profile {
     color: #fff;
     background-color: #415541;
@@ -50,6 +65,33 @@ nav a:hover {
 
 nav .active {
     background-color: rgba(0, 0, 0, 0.2);
+}
+
+#myButton::before {
+    content: "\2630";
+}
+
+#myButton {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    width: 44px;
+    text-align: left;
+    padding: .25rem 2vw;
+}
+
+ul.menuLinks {
+    display: none;
+}
+
+ul.menuLinks.open {
+    display: block;
+}
+
+#myButton.open::before {
+    content: "x";
 }
 
 .parent {
@@ -120,4 +162,14 @@ footer p {
     color: #ffffff;
     padding-top: 15px;
     font-size: 15px;
+}
+
+main.dark {
+    background-color: #161515;
+    color: #fff;
+}
+
+main.dark section {
+    color: #fff;
+    background-color: #161515;
 }

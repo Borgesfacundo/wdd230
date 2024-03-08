@@ -24,5 +24,15 @@
         box-shadow: 1px 1px 10px #000;
     }
 
+    #myButton {
+        display: none;
+    }
+
+    ul.menuLinks,
+    ul.menuLinks.Open {
+        display: flex;
+        justify-content: flex-end;
+    }
+
 
 }
