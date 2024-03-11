@@ -13,18 +13,31 @@
     <meta property="og:image" content="https://imagizer.imageshack.com/a/img924/9153/vz2uBP.jpg">
     <meta property="og:url" content="https://borgesfacundo.github.io/wdd230/chamber/index.html">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/normalize.css">
 
     <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
     <header>
-        <img src="images/logo-color.png" alt="Juliers Logo brand" width="75" height="75">
+        <div class="profile">
+            <img src="images/logo-color.png" alt="Juliers Logo brand" width="200" height="200">
+            <div class="title">
+                <h1>Juliers</h1>
+                <p>chamber of Commerce</p>
+            </div>
+        </div>
     </header>
 
     <nav>
+
         <ul class="menuLinks">
             <li class="active"><a href="index.html">Home Page</a></li>
             <li><a href="#">Page 2</a></li>
@@ -33,57 +46,62 @@
         </ul>
     </nav>
 
-    <h1>Welcome to Juliers's Home Page</h1>
 
     <div class="hero-img">
         <img src="images/hero-img.jpg" alt="Beautiful sight of a lake">
+        <div class="call-to-join">
+            <a href="#">Join the chamber</a>
+        </div>
     </div>
 
-    <div class="call-to-join">
-        <a href="#">Join Us!</a>
-    </div>
+
 
     <main>
+        <div class="parent">
+            <section class="events">
+                <h2>Incoming Events!</h2>
+                <p>This next month you need to be ready for our monthly food festival! Next March 26th, all our local
+                    collaborators will be presenting their best plates for the community. Would you lose it?
+                </p>
+            </section>
 
-        <section class="events">
-            <img src="images/top-view-calendar-envelope.jpg" alt="Image representing a caledar">
-            <h2>Incoming Events!</h2>
-            <p>This next month you need to be ready for our monthly food festival! Next March 26th, all our local
-                collaborators will be presenting their best plates for the community. Would you lose it?
-            </p>
-        </section>
+            <section class="weather-section">
+                <h2>Weather Information</h2>
+                <p>9 de Julio, Buenos Aires</p>
+                <p>76°F - Sunshine</p>
+            </section>
 
-        <section class="weather-section">
-            <h2>Weather Information</h2>
-            <p>9 de Julio, Buenos Aires</p>
-            <p>76°F - Sunshine</p>
-        </section>
-
-        <section class="spotlight">
             <h2>Member Spotlights</h2>
+            <section class="spotlight">
+                <div class="spot1">
+                    <h3>&#127829; Pizza World</h3>
+                    <p>Best Pizzas in town!</p>
+                    <p>pizzawolrd@pizzawolrd.com</p>
+                    <p>+54-2317-457825</p>
+                    <p>website</p>
+                </div>
+            </section>
 
-            <div>
-                <h3>&#127829; Pizza World</h3>
-                <p>Best Pizzas in town!</p>
-                <p>pizzawolrd@pizzawolrd.com</p>
-                <p>+54-2317-457825</p>
-                <p>website</p>
-            </div>
-            <div>
-                <h3>&#128666; Guillan Transport</h3>
-                <p>"We can bring it for you"</p>
-                <p>transGuillan@transport.com</p>
-                <p>+54-2317-123546</p>
-                <p>website</p>
-            </div>
-            <div>
-                <h3>&#128054; Juan Pet Store</h3>
-                <p>We have all your pet needs to be happy</p>
-                <p>juanpetshop@petshops.com</p>
-                <p>+54-2317-487965</p>
-                <p>website</p>
-            </div>
-        </section>
+            <section class="spotlight">
+                <div class="spot2">
+                    <h3>&#128666; Guillan Transport</h3>
+                    <p>"We can bring it for you"</p>
+                    <p>transGuillan@transport.com</p>
+                    <p>+54-2317-123546</p>
+                    <p>website</p>
+                </div>
+            </section>
+
+            <section class="spotlight">
+                <div class="spot3">
+                    <h3>&#128054; Juan Pet Store</h3>
+                    <p>We have all your pet needs to be happy</p>
+                    <p>juanpetshop@petshops.com</p>
+                    <p>+54-2317-487965</p>
+                    <p>website</p>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
         <img src="images/logo-color.png" alt="Juliers Chamber of Commerce logo" width="75" height="75">
