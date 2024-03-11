@@ -10,6 +10,7 @@ body {
     box-sizing: border-box;
 }
 
+
 header {
     display: block;
 }
@@ -35,6 +36,7 @@ h2 {
 
 .profile p {
     margin-bottom: 10px;
+
 }
 
 .title {
