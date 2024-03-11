@@ -1,4 +1,8 @@
 @media only screen and (min-width: 550px) {
+    .profile img {
+        margin: 2rem 2.5rem 2rem 1rem;
+    }
+
     nav ul {
         display: flex;
         margin: 0 auto;
@@ -44,7 +48,15 @@
         align-items: center;
     }
 
+    #myButton {
+        display: none;
+    }
 
+    ul.menuLinks,
+    ul.menuLinks.Open {
+        display: flex;
+        justify-content: flex-end;
+    }
 
 
 

@@ -32,12 +32,18 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+
 }
+
 
 .profile img {
     margin: 2rem 2.5rem 2rem 1rem;
 }
 
+.title {
+    justify-self: auto;
+}
 
 h1 {
     font-size: 1.3rem;
