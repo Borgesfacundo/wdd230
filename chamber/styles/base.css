@@ -234,10 +234,25 @@ Discover page */ .sidebar {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
+    gap: 5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.image,
+.image-2,
+.image-3,
+.image-4,
+.image-5,
+.image-6 {
+    width: 100%;
+    /* Ensure images take full width of their container */
+    height: auto;
+    /* Maintain aspect ratio */
 }
 
 .image {
-    width: 1024px;
+    /* width: 1024px;*/
     height: 576px;
     background-color: red;
 }
