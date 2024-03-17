@@ -70,7 +70,7 @@
     .sidebar {
         max-width: 100%;
         min-width: 300px;
-        height: 600px;
+        height: auto;
         margin: 1rem;
         padding: 2rem 2rem;
         background-color: #f0f0f0;
@@ -133,6 +133,10 @@
 
     .main-images {
         margin-top: 1rem;
+    }
+
+    .main-images img:hover {
+        filter: contrast(50%);
     }
 
 }
