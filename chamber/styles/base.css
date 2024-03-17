@@ -241,6 +241,19 @@ ul.menuLinks.open {
     padding: 0;
 }
 
+.main-images h2 {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+
+}
+
+.main-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #discover-main section {
     display: grid;
     grid-template-columns: 1fr;
@@ -262,6 +275,8 @@ ul.menuLinks.open {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    position: relative;
 }
 
 img {
