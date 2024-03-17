@@ -130,7 +130,6 @@ main {
 
 main h1 {
     font-size: 2rem;
-    grid-row: 1/2;
     margin: 0 auto;
     padding-top: 2rem;
     margin-left: 1rem;
@@ -178,4 +177,32 @@ main.dark {
 main.dark section {
     color: #fff;
     background-color: #161515;
+}
+
+.hero picture {
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero span {
+    position: absolute;
+    bottom: 60%;
+    left: 20px;
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+    text-align: center;
+}
+
+.map {
+    width: 100%;
+}
+
+.map iframe {
+    width: 100%;
 }

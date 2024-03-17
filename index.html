@@ -30,7 +30,7 @@
     <header>
         <div class="profile">
             <div id="darkBtn">🕶️</div>
-            <img src="images/profile.jpg" alt="Facundo Borges profile" width="75" height="100">
+            <img src="images/profile.webp" alt="Facundo Borges profile" width="75" height="100">
             <span>Facundo E. Borges</span>
         </div>
     </header>
@@ -38,12 +38,21 @@
         <button id="myButton"></button>
         <ul class="menuLinks">
             <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="#">Chamber</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
             <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
             <li><a href="#">Form</a></li>
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-img-small.webp" media="(max-width: 400px)">
+                <source srcset="images/hero-img-large.webp" media="(max-width: 960px)">
+                <img src=" images/hero-img-large.webp" alt="Provo City Temple" width="960" height="480">
+                <span>Provo City Temple</span>
+            </picture>
+        </div>
+
         <h1>WDD 230: Web Frontend Development</h1>
 
         <div class="parent">
@@ -69,9 +78,18 @@
                 <h2>Information</h2>
                 <p>Buenos Aires, Argentina</p>
                 <p>76°F - Sunshine</p>
-                <p>Page Visits : 12</p>
+                <p>Page Visits : <span class="visits"></span>
+                </p>
+            </section>
+
+            <section class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1877.6671568383579!2d-60.88517797663742!3d-35.445407393344496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bf0deaa538bdeb%3A0x9d21f4202189f16c!2s9%20de%20Julio%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1710716496990!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
         </div>
+
     </main>
     <footer>
         <p>&copy;<span class="year"></span> - Facundo Emanuel Borges - Argentina</p>
