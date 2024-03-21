@@ -1,0 +1,49 @@
+:root {
+    --bord: 1px solid #000;
+    --border: #000;
+    --background-grey: #403e3e;
+}
+
+body {
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+table {
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 7px 15px;
+    border: 1px solid var(--border);
+}
+
+td {
+    text-align: center;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    font-size: .85rem;
+}
+
+
+thead tr:first-child th,
+.blank {
+    padding: 7px 15px;
+    background-color: #000;
+    color: #fff;
+    font-size: larger;
+}
+
+tbody tr:nth-child(2) {
+    background-color: #c9c9c9;
+}
+
+thead tr>th {
+    background-color: var(--background-grey);
+    color: #fff;
+}
