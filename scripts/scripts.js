@@ -36,3 +36,4 @@ else {
 numVisits++;
 
 localStorage.setItem("numVisits-ls", numVisits);
+
