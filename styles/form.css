@@ -78,3 +78,9 @@ label {
 .record p {
     padding: 1rem;
 }
+
+#rangevalue {
+    color: var(--text-color);
+    font-size: 2rem;
+    margin: -.7rem 2% 0 2%;
+}
