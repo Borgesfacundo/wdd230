@@ -21,20 +21,23 @@ let lastUserVisit = Number(window.localStorage.getItem("lastVisit-ls"));
 let daysPassedSinceLastVisit = Math.round((lastVisit - lastUserVisit) / msToDays);
 
 
+if (visits !== null) {
 
-if (numVisits == 0) {
-    visits.textContent = "Welcome! Let us know if you have any questions.";
-}
-if (numVisits !== 0 && (lastVisit - lastUserVisit) < msToDays) {
-    visits.textContent = "Back so soon! Awesome!";
-}
-if (numVisits !== 0 && (lastVisit - lastUserVisit) > msToDays) {
-    if (daysPassedSinceLastVisit = 1) {
-        visits.textContent = `You last visited ${daysPassedSinceLastVisit} day ago`;
-    } else {
-        visits.textContent = `You last visited ${daysPassedSinceLastVisit} days ago`;
+    if (numVisits == 0) {
+        visits.textContent = "Welcome! Let us know if you have any questions.";
+    }
+    if (numVisits !== 0 && (lastVisit - lastUserVisit) < msToDays) {
+        visits.textContent = "Back so soon! Awesome!";
+    }
+    if (numVisits !== 0 && numVisits !== "null" && (lastVisit - lastUserVisit) > msToDays) {
+        if (daysPassedSinceLastVisit = 1) {
+            visits.textContent = `You last visited ${daysPassedSinceLastVisit} day ago`;
+        } else {
+            visits.textContent = `You last visited ${daysPassedSinceLastVisit} days ago`;
+        }
     }
 }
+
 
 numVisits++;
 
