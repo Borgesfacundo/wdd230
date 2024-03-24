@@ -139,4 +139,40 @@
         filter: contrast(50%);
     }
 
+
+    /* ------- join page -------- */
+    main {
+        display: grid !important;
+        grid-template-columns: 1fr 2fr;
+        gap: 1rem;
+    }
+
+    .container {
+        grid-column: 1/2;
+        grid-row: 1;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .forma {
+        grid-column: 2/3;
+    }
+
+    .join legend {
+        color: #4b0202;
+        padding: 0 .5rem;
+        font-size: 1.3rem;
+    }
+
+    .join label {
+        display: block;
+        padding-top: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .join div {
+        font-size: 1.6rem;
+    }
+
+
 }
