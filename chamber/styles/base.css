@@ -293,3 +293,93 @@ button.fc-today-button.fc-button.fc-button-primary {
 .fc .fc-day-other .fc-daygrid-day-top {
     opacity: 1;
 }
+
+/* -------Join Page -------*/
+
+form {
+    max-width: 64rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+}
+
+:root {
+    --background: #C2E1FF;
+    --buttoncolor: #164898;
+}
+
+.join fieldset {
+    margin: 2rem 0;
+    border: 1px solid #012051;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.join legend {
+    color: #4b0202;
+    padding: 0 .5rem;
+    font-size: 1.3rem;
+}
+
+.join label {
+    display: block;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+.join div {
+    padding-top: 1rem;
+    font-size: 1.4rem;
+    color: #4b0202;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="telephone"] {
+    display: block;
+    background-color: var(--background);
+    color: #4b0202;
+    border: 1px solid #000;
+    border-radius: 7px;
+    padding: 0.75rem;
+    max-width: 400px;
+    width: 100%;
+    font-size: 1.2rem;
+
+}
+
+input[type="radio"] {
+    margin-right: 6px;
+    padding-top: 0.75rem;
+
+}
+
+input[type="submit"] {
+    border-radius: 15px;
+    background-color: var(--buttoncolor);
+    color: #e3e3e3;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 3px 3px 6px #999;
+    padding: .8rem;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #4b0202;
+    color: #C2E1FF;
+}
+
+.join input:required {
+    border-bottom: 8px solid red;
+}
+
+.join input:required:valid {
+    border-bottom: 8px solid rgb(4, 183, 22);
+}
+
+#description {
+    padding-bottom: 8rem;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juliers Chamber of commerce | City of 9 de Julio, Buenos Aires</title>
+    <meta name="author" content="Facundo Emanuel Borges">
+    <meta name="description"
+        content="This is the 9 de Julio's number 1 Chamber of commerce webpage. Dedicated to serve and help the community of 9 de Julio, Buenos Aires">
+    <meta property="og:title" content="Juliers Chamebr of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://imagizer.imageshack.com/a/img924/9153/vz2uBP.jpg">
+    <meta property="og:url" content="https://borgesfacundo.github.io/wdd230/chamber/index.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <div class="profile">
+            <img src="images/logo-color.jpg" alt="Juliers Logo brand" width="200" height="200">
+            <div class="title">
+                <h1>Juliers - 9 de Julio Chamber of Commerce</h1>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <button id="myButton"></button>
+
+        <ul class="menuLinks">
+            <li class="active"><a href="index.html">Home Page</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Page 3</a></li>
+            <li><a href="#">Page 4</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <form method="get" action="thankyou.html" class="join">
+            <fieldset>
+                <legend>First Fieldset Form</legend>
+                <label>First name* <input type="text" name="firstname" id="fname" required></label>
+                <label>Last name* <input type="text" name="lastname" id="lname" required></label>
+                <label>Title or position <input type="text" name="title" id="title" pattern="[a-zA-Z\s]{7,}"
+                        title="Please enter at least 7 characters consisting of letters, spaces, and hyphens"></label>
+                <label>Email* <input type="email" name="email" id="email" placeholder="example@gmail.com"
+                        required></label>
+                <label>Phone number* <input type="telephone" name="phone" id="phone" required></label>
+                <label>Business/Organization's name <input type="text" name="organization" id="organization"
+                        required></label>
+                <div>Membership level</div>
+                <label><input type="radio" name="lvlnp" value="yes">NP Membership (No fee)</label>
+                <label><input type="radio" name="lvlbronze" value="yes">Bronze Membership</label>
+                <label><input type="radio" name="lvlsilver" value="yes">Silver Membership</label>
+                <label><input type="radio" name="goldmembership" value="yes">Gold Membership</label>
+                <label>Business/Organization's description <input type="text" required name="description"
+                        id="description"></label>
+                <label><input type="hidden" name="timestamp" id="timestamp"></label>
+            </fieldset>
+
+            <input type="submit" value="Send it">
+
+        </form>
+
+        <div class="container">
+            <h2>NP Membership</h2>
+            <p>This is for non profit organizations and the is no fee. It includes the following benefits: every 6
+                months you will have an special event focused on your organization, you will have access to 10 trainning
+                sessions per month and 15% discount in special events.</p>
+
+            <h2>Bronze Membership</h2>
+            <p>This is the basic plan. It includes a 15% discount in every event, an special section on the home page to
+                your spotlights and 12 trainnings sessions per month</p>
+
+            <h2>Silver Membership</h2>
+            <p>Silver memberships will obtain a 25% discount in every event, 2 sections to special section to advertise
+                your page and access to more than 15 trainning session.</p>
+
+            <h2>Gold Membership</h2>
+            <p>Gold Membership offers a total of 35% discount in every event, 4 special sections to advertise your
+                business or spotlight whatever you want and unlimited access to our trainning sessions</p>
+        </div>
+
+    </main>
+    <footer>
+        <img src="images/logo-color.jpg" alt="Juliers Chamber of Commerce logo" width="75" height="75">
+        <h3>Juliers Chamber of commerce</h3>
+        <p>Yrigoyen 737, 9 de Julio - 6500</p>
+        <p>info@juliers.org <br>
+            +54-2317-225587 <br>
+            &#128205; Location Map
+        </p>
+    </footer>
+
+
+    <script src="scripts/scripts.js"></script>
+</body>
+
+</html>

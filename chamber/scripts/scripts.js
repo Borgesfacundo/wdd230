@@ -41,3 +41,13 @@ numVisits++;
 localStorage.setItem("visits-ls", numVisits);
 localStorage.setItem("lastVisit-ls", lastVisit);
 
+//Timestamp
+
+function setCurrentDateTime() {
+    var now = new Date();
+    var dateTimeString = now.toISOString();
+    document.getElementById("timestamp").value = dateTimeString;
+}
+
+//Call function when page is load
+window.onload = setCurrentDateTime;
