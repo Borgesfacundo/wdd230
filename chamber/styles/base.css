@@ -335,7 +335,7 @@ form {
 
 input[type="text"],
 input[type="email"],
-input[type="telephone"] {
+input[type="tel"] {
     display: block;
     background-color: var(--background);
     color: #000;
