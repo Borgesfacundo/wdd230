@@ -1,0 +1,23 @@
+{
+    "familyName": "London",
+    "moveDate": "03/27/2024",
+    "numOfRecords": 3,
+    "visitedByBishopric": "no",
+    "members": [
+        {
+            "name": "Peter",
+            "gender": "male",
+            "birthdate": "03/15/1985"
+        },
+    {
+            "name": "Mariah",
+            "gender": "female",
+            "birthdate": "f02/16/1988"
+        },
+        {
+            "name": "Sophia",
+            "gender": "female",
+            "birthdate": "07/26/2003"
+        }
+    ]
+}
