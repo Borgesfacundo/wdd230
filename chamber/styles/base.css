@@ -348,6 +348,13 @@ input[type="tel"] {
 
 }
 
+textarea {
+    display: block;
+    border: 1px solid rgb(14, 102, 36);
+    width: 100%;
+    max-width: 400px;
+}
+
 input[type="radio"] {
     margin-right: 6px;
     padding-top: 0.75rem;
