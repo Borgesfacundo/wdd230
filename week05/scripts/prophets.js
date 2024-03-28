@@ -17,7 +17,7 @@ const displayProphets = (prophets) => {
 
         //extra information
         let birthdate = document.createElement("h4");
-        let birthplace = document.createElement("h5");
+        let birthplace = document.createElement("h4");
 
         //create fullname
         fullName.textContent = `${prophet.name} ${prophet.lastname}`;
