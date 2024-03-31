@@ -1,5 +1,5 @@
 const baseURL = "https://github.com/Borgesfacundo/wdd230";
-const linksURL = "https://github.com/Borgesfacundo/wdd230/blob/main/data/links.json";
+const linksURL = "https://borgesfacundo.github.io/wdd230/data/links.json";
 const weeksList = document.querySelector("#weeks");
 
 async function getLinks() {
@@ -23,7 +23,6 @@ function displayLinks(weeks) {
 
         list.appendChild(a);
     });
-
 }
 
 getLinks();
