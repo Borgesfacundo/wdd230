@@ -5,23 +5,39 @@ const weeksList = document.querySelector("#weeks");
 async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
-    console.log(data);
-    //displayLinks(data);
+    console.log(data.weeks);
+    displayLinks(data.weeks);
 }
 
 function displayLinks(weeks) {
     weeks.forEach((week) => {
         const list = document.createElement("li");
-        const a = document.createElement("a");
-        const link = week.weeks.links[weeks].url;
+        list.textContent = `${week.week}: `;
 
 
-        
-        list.textContent = week.weeks.week;
-        a.setAttribute("href", link);
-        a.innerHTML = week.weeks.links[weeks].title;
+        week.links.forEach((link, indice) => {
+            if (indice === week.links.length - 1) {
+                const a = document.createElement("a");
+                a.setAttribute("href", link.url);
+                a.innerHTML = `${link.title}`;
+                list.appendChild(a);
+                weeksList.appendChild(list); 
+            } else {
 
-        list.appendChild(a);
+            const a = document.createElement("a");
+            const span = document.createElement("span");
+            a.setAttribute("href", link.url);
+            a.innerHTML = `${link.title}`;
+            span.textContent = " | ";
+            list.appendChild(a);
+            list.appendChild(span);
+            weeksList.appendChild(list);
+        }
+        });
+
+
+
+
     });
 }
 
