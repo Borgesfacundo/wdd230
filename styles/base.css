@@ -96,6 +96,10 @@ ul.menuLinks.open {
     display: block;
 }
 
+#weeks li {
+    padding-bottom: .5rem;
+}
+
 #myButton.open::before {
     content: "x";
 }
