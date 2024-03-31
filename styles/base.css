@@ -206,3 +206,9 @@ main.dark section {
 .map iframe {
     width: 100%;
 }
+
+.weather-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
