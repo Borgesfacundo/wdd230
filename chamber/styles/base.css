@@ -502,11 +502,12 @@ input[type="submit"]:hover {
 
 .list-directory section {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 2fr 3fr 2fr 1fr;
     margin: 0;
     padding: 0.25rem;
 
 }
+
 
 .list-directory section > * {
     margin: 0 1rem;
@@ -517,7 +518,23 @@ input[type="submit"]:hover {
 }
 
 .list-directory section h2 {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    padding: 1rem;
+    align-self: center;
+    justify-self: center;
+}
+
+.list-directory section h4 {
+    font-size: 0.7rem;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.list-directory section a {
+    font-size: 0.7rem;
+    align-self: center;
+    justify-self: center;
 }
 
 .list-directory section:nth-child(even) {
