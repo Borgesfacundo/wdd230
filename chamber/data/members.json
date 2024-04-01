@@ -16,7 +16,7 @@
             "website": "www.juanpetstore.com",
             "image": "https://borgesfacundo.github.io/wdd230/chamber/images/Juan%20Pet%20Store.png",
             "membership": "Silver",
-            "slogan": "We have all your pet needs to be happy"
+            "slogan": "We make your pet happy"
         },
         {
             "name": "Mangery Car",
@@ -28,7 +28,7 @@
             "slogan": "We can fix your car"
         },
         {
-            "name": "Club Atletico Agustin Gonzales",
+            "name": "C.A Agustin Gonzales",
             "address": "Av Pironio 1234",
             "phoneNumber": "+54 2317 789875",
             "website": "www.caag.com",
@@ -37,7 +37,7 @@
             "slogan": "We form champions"
         },
         {
-            "name": "Club Atletico San Goku",
+            "name": "C.A San Goku",
             "address": "Av Compaire 1487",
             "phoneNumber": "+54 2317 412357",
             "website": "www.casg.com",
@@ -46,7 +46,7 @@
             "slogan": "Helping to the next generations"
         },
         {
-            "name": "Armando Deps Shoes",
+            "name": "Armando Deps",
             "address": "Cabrerizo 3547",
             "phoneNumber": "+54 2317 523545",
             "website": "www.depshoesarmando.com",

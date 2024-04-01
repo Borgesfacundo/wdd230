@@ -26,8 +26,8 @@ const displayCompanies = (members) => {
         //set image
         icon.setAttribute("src", member.image);
         icon.setAttribute("alt", member.name);
-        icon.setAttribute("width", "300");
-        icon.setAttribute("width", "300");
+        icon.setAttribute("width", "200");
+        icon.setAttribute("width", "200");
         icon.setAttribute("loading", "lazy");
 
         //Set Information
