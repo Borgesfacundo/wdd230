@@ -101,6 +101,10 @@ section h3 {
     padding: 0.2rem 2rem;
 }
 
+.spotlight a {
+    padding: 0.2rem 2rem;
+}
+
 .parent {
     margin: 1rem 2vw;
 }
@@ -154,6 +158,10 @@ main h2 {
 }
 
 .weather-section p {
+    padding: 0.2rem 2rem;
+}
+
+.weather-section a {
     padding: 0.2rem 2rem;
 }
 
@@ -511,7 +519,7 @@ input[type="submit"]:hover {
 }
 
 
-.list-directory section > * {
+.list-directory section>* {
     margin: 0 1rem;
 }
 
