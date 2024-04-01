@@ -502,11 +502,11 @@ input[type="submit"]:hover {
 
 .list-directory section {
     display: grid;
-    grid-template-columns: 150px 150px 200px 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
     margin: 0;
     padding: 0.25rem;
-    height: 100px;
     box-sizing: border-box;
+    justify-items: left;
 
 }
 
@@ -521,18 +521,20 @@ input[type="submit"]:hover {
 
 .list-directory section h2 {
     font-size: 0.8rem;
-    padding: 1rem;
+    padding: 0.5rem;
 
 }
 
 .list-directory section h4 {
     font-size: 0.7rem;
     align-self: center;
+    font-weight: 500;
 
 }
 
 .list-directory section a {
     font-size: 0.7rem;
+    padding-bottom: 3%;
 }
 
 .list-directory section:nth-child(even) {
