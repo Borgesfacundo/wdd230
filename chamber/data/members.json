@@ -1,0 +1,67 @@
+{
+    "companies": [
+        {
+            "name": "Guillan Transport",
+            "address": "Av. Agustin Alvarez 547",
+            "phoneNumber": "+54 2317 123546",
+            "website": "www.transporteguillan.com",
+            "image": "",
+            "membership": "Bronze",
+            "slogan": "We can bring it for you"
+        },
+        {
+            "name": "Juan Pet Store",
+            "address": "av. 25 de Mayo 1458",
+            "phoneNumber": "+54 2317 487965",
+            "website": "www.juanpetstore.com",
+            "image": "",
+            "membership": "Silver",
+            "slogan": "We have all your pet needs to be happy"
+        },
+        {
+            "name": "Mangery Car",
+            "address": "Mitre 2574",
+            "phoneNumber": "+54 2317 747456",
+            "website": "www.mangerycar.com",
+            "image": "",
+            "membership": "Gold",
+            "slogan": "We can fix your car"
+        },
+        {
+            "name": "Club Atletico Agustin Gonzales",
+            "address": "Av Pironio 1234",
+            "phoneNumber": "+54 2317 789875",
+            "website": "www.caag.com",
+            "image": "",
+            "membership": "Gold",
+            "slogan": "We form champions"
+        },
+        {
+            "name": "Club Atletico San Goku",
+            "address": "Av Compaire 1487",
+            "phoneNumber": "+54 2317 412357",
+            "website": "www.casg.com",
+            "image": "",
+            "membership": "Silver",
+            "slogan": "Helping to the next generations"
+        },
+        {
+            "name": "Armando Deps Shoes",
+            "address": "Cabrerizo 3547",
+            "phoneNumber": "+54 2317 523545",
+            "website": "www.depshoesarmando.com",
+            "image": "",
+            "membership": "Gold",
+            "slogan": "Here you can find the best choice for your feet"
+        },
+        {
+            "name": "Pizza Wolrd",
+            "address": "San Martin 537",
+            "phoneNumber": "+54 2317 456928",
+            "website": "www.pizzaworld9dj.com",
+            "image": "",
+            "membership": "Bronze",
+            "slogan": "best pizzas in town!"
+        }
+    ]
+}
