@@ -31,7 +31,7 @@ const displayCompanies = (members) => {
         icon.setAttribute("loading", "lazy");
 
         //Set Information
-        info.innerHTML = `${member.slogan} - ${member.address}`;
+        info.innerHTML = `${member.slogan} - <br> ${member.address}`;
         phone.textContent = member.phoneNumber;
         website.setAttribute("href", member.website);
         website.innerHTML = member.website;
@@ -48,3 +48,22 @@ const displayCompanies = (members) => {
 }
 
 getMembers();
+
+
+//Layout
+
+const gridbutton = document.querySelector("#grid-directory");
+const listbutton = document.querySelector("#list-directory");
+const display = document.querySelector("article");
+
+gridbutton.addEventListener("click", () => {
+    display.classList.add("grid-directory");
+    display.classList.remove("list-directory");
+});
+
+listbutton.addEventListener("click", showList);
+
+function showList() {
+    display.classList.add("list-directory");
+    display.classList.remove("grid-directory");
+}
