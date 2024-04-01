@@ -5,7 +5,7 @@
             "address": "Av. Agustin Alvarez 547",
             "phoneNumber": "+54 2317 123546",
             "website": "www.transporteguillan.com",
-            "image": "",
+            "image": "https://borgesfacundo.github.io/wdd230/chamber/images/Guillan%20Transport.png",
             "membership": "Bronze",
             "slogan": "We can bring it for you"
         },
@@ -14,7 +14,7 @@
             "address": "av. 25 de Mayo 1458",
             "phoneNumber": "+54 2317 487965",
             "website": "www.juanpetstore.com",
-            "image": "",
+            "image": "https://borgesfacundo.github.io/wdd230/chamber/images/Juan%20Pet%20Store.png",
             "membership": "Silver",
             "slogan": "We have all your pet needs to be happy"
         },
@@ -23,7 +23,7 @@
             "address": "Mitre 2574",
             "phoneNumber": "+54 2317 747456",
             "website": "www.mangerycar.com",
-            "image": "",
+            "image": "https://borgesfacundo.github.io/wdd230/chamber/images/Mangery%20Car.png",
             "membership": "Gold",
             "slogan": "We can fix your car"
         },
@@ -32,7 +32,7 @@
             "address": "Av Pironio 1234",
             "phoneNumber": "+54 2317 789875",
             "website": "www.caag.com",
-            "image": "",
+            "image": "https://borgesfacundo.github.io/wdd230/chamber/images/CAAG.png",
             "membership": "Gold",
             "slogan": "We form champions"
         },
@@ -41,7 +41,7 @@
             "address": "Av Compaire 1487",
             "phoneNumber": "+54 2317 412357",
             "website": "www.casg.com",
-            "image": "",
+            "image": "https://borgesfacundo.github.io/wdd230/chamber/images/San%20Goku.png",
             "membership": "Silver",
             "slogan": "Helping to the next generations"
         },
@@ -50,7 +50,7 @@
             "address": "Cabrerizo 3547",
             "phoneNumber": "+54 2317 523545",
             "website": "www.depshoesarmando.com",
-            "image": "",
+            "image": "https://borgesfacundo.github.io/wdd230/chamber/images/Armando%20Deps%20Shoes.png",
             "membership": "Gold",
             "slogan": "Here you can find the best choice for your feet"
         },
@@ -59,7 +59,7 @@
             "address": "San Martin 537",
             "phoneNumber": "+54 2317 456928",
             "website": "www.pizzaworld9dj.com",
-            "image": "",
+            "image": "https://borgesfacundo.github.io/wdd230/chamber/images/Pizza%20Wolrd.png",
             "membership": "Bronze",
             "slogan": "best pizzas in town!"
         }
