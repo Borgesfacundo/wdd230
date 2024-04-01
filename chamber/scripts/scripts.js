@@ -6,51 +6,19 @@ hamburgerElement.addEventListener("click", () => {
     hamburgerElement.classList.toggle("open");
 });
 
-//Local Storage: Num of Visits
-const visits = document.querySelector(".visits");
-//Miliseconds to make a day
-const msToDays = 84600000;
-
-// today's date
-const lastVisit = Date.now();
-
-let numVisits = Number(window.localStorage.getItem("visits-ls"));
-
-let lastUserVisit = Number(window.localStorage.getItem("lastVisit-ls"));
-
-let daysPassedSinceLastVisit = Math.round((lastVisit - lastUserVisit) / msToDays);
-
-
-if (visits !== null) {
-
-    if (numVisits == 0) {
-        visits.textContent = "Welcome! Let us know if you have any questions.";
-    }
-    if (numVisits !== 0 && (lastVisit - lastUserVisit) < msToDays) {
-        visits.textContent = "Back so soon! Awesome!";
-    }
-    if (numVisits !== 0 && numVisits !== "null" && (lastVisit - lastUserVisit) > msToDays) {
-        if (daysPassedSinceLastVisit = 1) {
-            visits.textContent = `You last visited ${daysPassedSinceLastVisit} day ago`;
-        } else {
-            visits.textContent = `You last visited ${daysPassedSinceLastVisit} days ago`;
-        }
-    }
-}
-
-
-numVisits++;
-
-localStorage.setItem("visits-ls", numVisits);
-localStorage.setItem("lastVisit-ls", lastVisit);
-
-//Timestamp
-
+// Timestamp
 function setCurrentDateTime() {
     var now = new Date();
     var dateTimeString = now.toISOString();
     document.getElementById("timestamp").value = dateTimeString;
 }
 
-//Call function when page is load
-window.onload = setCurrentDateTime;
+// Get the element with ID "timestamp"
+var timestampElement = document.getElementById("timestamp");
+
+// Call function when page is loaded
+if (timestampElement !== null) {
+    setCurrentDateTime();
+} else {
+    console.log("no Timestamp element");
+}
