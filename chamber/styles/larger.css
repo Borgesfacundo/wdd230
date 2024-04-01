@@ -141,8 +141,8 @@
 
 
     /* ------- join page -------- */
-    main {
-        display: grid !important;
+    #main-join {
+        display: grid ;
         grid-template-columns: 1fr 2fr;
         gap: 1rem;
     }
@@ -173,6 +173,9 @@
     .join div {
         font-size: 1.6rem;
     }
+
+
+    /* Directory Page */
 
 
 }
