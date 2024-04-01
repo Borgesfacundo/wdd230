@@ -24,7 +24,7 @@ async function weatherFetch() {
 
 //display Weather
 function displayWeather(data) {
-    myTemp.innerHTML = `${data.main.temp}$deg;F`;
+    myTemp.innerHTML = `${data.main.temp}&deg;F`;
     const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
     icon.setAttribute("src", iconsrc);
     icon.setAttribute("alt", data.weather[0].description);
