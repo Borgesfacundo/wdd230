@@ -7,7 +7,8 @@
             "website": "www.transporteguillan.com",
             "image": "https://borgesfacundo.github.io/wdd230/chamber/images/Guillan%20Transport.png",
             "membership": "Bronze",
-            "slogan": "We can bring it for you"
+            "slogan": "We can bring it for you",
+            "email": "transguillan@transport.com"
         },
         {
             "name": "Juan Pet Store",
@@ -16,7 +17,9 @@
             "website": "www.juanpetstore.com",
             "image": "https://borgesfacundo.github.io/wdd230/chamber/images/Juan%20Pet%20Store.png",
             "membership": "Silver",
-            "slogan": "We make your pet happy"
+            "slogan": "We make your pet happy",
+            "email": "juanpetshop@petshops.com"
+
         },
         {
             "name": "Mangery Car",
@@ -25,7 +28,8 @@
             "website": "www.mangerycar.com",
             "image": "https://borgesfacundo.github.io/wdd230/chamber/images/Mangery%20Car.png",
             "membership": "Gold",
-            "slogan": "We can fix your car"
+            "slogan": "We can fix your car",
+            "email": "mangeryfix@gmail.com"
         },
         {
             "name": "C.A Agustin Gonzales",
@@ -34,7 +38,8 @@
             "website": "www.caag.com",
             "image": "https://borgesfacundo.github.io/wdd230/chamber/images/CAAG.png",
             "membership": "Gold",
-            "slogan": "We form champions"
+            "slogan": "We form champions",
+            "email": "casgustingonzales@soccer.com"
         },
         {
             "name": "C.A San Goku",
@@ -43,7 +48,8 @@
             "website": "www.casg.com",
             "image": "https://borgesfacundo.github.io/wdd230/chamber/images/San%20Goku.png",
             "membership": "Silver",
-            "slogan": "Helping to the next generations"
+            "slogan": "Helping to the next generations",
+            "email": "cagokusan@soccer.com"
         },
         {
             "name": "Armando Deps",
@@ -52,7 +58,8 @@
             "website": "www.depshoesarmando.com",
             "image": "https://borgesfacundo.github.io/wdd230/chamber/images/Armando%20Deps%20Shoes.png",
             "membership": "Gold",
-            "slogan": "The best choice for your feet"
+            "slogan": "The best choice for your feet",
+            "email": "armandoshoes@shoes.com"
         },
         {
             "name": "Pizza Wolrd",
@@ -61,7 +68,8 @@
             "website": "www.pizzaworld9dj.com",
             "image": "https://borgesfacundo.github.io/wdd230/chamber/images/Pizza%20Wolrd.png",
             "membership": "Bronze",
-            "slogan": "Best pizzas in town!"
+            "slogan": "Best pizzas in town!",
+            "email": "pizzaworld@pizzaworld.com"
         }
     ]
 }
