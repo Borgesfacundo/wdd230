@@ -59,7 +59,7 @@ forecastfetch();
 function displayForecast(data) {
     // Filter out the forecast data for the next 3 days
     const forecastData = data.list.filter((item, index) => index % 8 === 0).slice(0, 3);
-    console.log(forecastData);
+    //console.log(forecastData);
 
     forecastData.forEach((day) => {
         //create variables
