@@ -53,6 +53,7 @@ h2 {
 
 div .spotlight {
     padding-bottom: 1rem;
+    text-align: center;
 }
 
 nav {
@@ -155,6 +156,14 @@ main {
 main h2 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+.weather-temp {
+    font-size: large;
+}
+
+.weather-section {
+    text-align: center;
 }
 
 .weather-section p {
@@ -566,4 +575,10 @@ input[type="submit"]:hover {
 
 #directory-page img {
     max-width: 100%;
+}
+
+.forecast-weather {
+    font-size: .8rem;
+    text-align: left;
+    margin-top: 1rem;
 }
