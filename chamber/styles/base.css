@@ -92,6 +92,7 @@ section h3 {
 
 .events {
     padding: 1rem 1rem;
+    text-align: center;
 }
 
 .spotlight h3 {
@@ -172,6 +173,10 @@ main h2 {
 
 .weather-section a {
     padding: 0.2rem 2rem;
+}
+
+.weather-section h2 {
+    padding: 2rem;
 }
 
 footer {
@@ -581,4 +586,5 @@ input[type="submit"]:hover {
     font-size: .8rem;
     text-align: left;
     margin-top: 1rem;
+    padding-bottom: 1rem;
 }

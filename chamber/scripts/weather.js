@@ -66,11 +66,10 @@ function displayForecast(data) {
         const tempAndDesc = document.createElement("p");
         const dateString = day.dt_txt;
 
-        const [date]  = dateString.split(" ");
+        const date  = dateString.split(" ");
 
         
-        
-
+    
         tempAndDesc.innerHTML = `<b>${date}</b>: ${day.main.temp}&deg;F - ${day.weather[0].description}`;
 
         container.appendChild(tempAndDesc);
