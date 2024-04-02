@@ -66,7 +66,7 @@ function displayForecast(data) {
         const tempAndDesc = document.createElement("p");
         const dateString = day.dt_txt;
 
-        const date  = dateString.split(" ");
+        const [date, hour]  = dateString.split(" ");
 
         
     
