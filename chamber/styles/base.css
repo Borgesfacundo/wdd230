@@ -95,6 +95,15 @@ section h3 {
     text-align: center;
 }
 
+.spotlight div {
+    border: 1px solid #164898;
+    background-color: #e9f5e9;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
 .spotlight h3 {
     text-align: center;
 }
@@ -117,6 +126,14 @@ section h3 {
     border-radius: 10px;
     overflow: hidden;
     margin: 1rem 0;
+    width: 100%;
+    
+}
+
+.parent .spotlight {
+    background-color: #fff;
+    border: 0 solid #fff;
+
 }
 
 .hero-img {

@@ -38,6 +38,20 @@
         grid-column: 1/4;
     }
 
+    .spotlight {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        grid-column: 1/4;
+
+    }
+
+    .spotlight div {
+        padding-bottom: 2rem;
+
+    }
+
+
     .events {
         grid-column: 1/3;
     }
