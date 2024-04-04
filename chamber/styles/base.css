@@ -271,7 +271,8 @@ ul.menuLinks.open {
     margin: 1rem;
     overflow: auto;
     text-align: center;
-    border: 1px solid #000;
+    border: 1px solid #164898;
+    border-radius: 1%;
 
 }
 
@@ -308,6 +309,7 @@ ul.menuLinks.open {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 
 #discover-main section {
@@ -316,6 +318,7 @@ ul.menuLinks.open {
     justify-items: center;
     padding: 1rem;
     text-align: center;
+
 }
 
 .image,
@@ -327,12 +330,15 @@ ul.menuLinks.open {
     width: 100%;
     height: auto;
     margin: 0.5rem;
-    border: 1px solid #000;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
+    background-color: #f0f0f0;
+    border-radius: 1%;
+    border: 1px solid #164898;
+
 }
 
 img {
